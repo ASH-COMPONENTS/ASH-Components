@@ -47,7 +47,8 @@ html {
     scroll-behavior: smooth;
 }
 
-ol, ul {
+ol,
+ul {
     padding: 0;
 }
 
@@ -493,7 +494,7 @@ ol, ul {
 
 .roadmap {
     padding-top: 130px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 
 .roadmap-container .content {
@@ -529,29 +530,25 @@ ol, ul {
     margin-top: 10px;
 }
 
+/* end roadmap */
 
-.contact {
-    margin-top: 120px;
-}
-
-.contact .content {
+/* strat contact */
+.contact-container {
+    margin-top: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(../Image/features.jpg);
+    height: calc(100vh - 350px);
+    width: 100%;
     position: relative;
 }
 
-.contact video {
-    width: 100%;
-    margin-bottom: -7px;
-}
-
 .contact .content .info {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%);
     background: rgba(255, 166, 0, 0.486);
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media(max-width: 683px) {
@@ -574,6 +571,24 @@ ol, ul {
 
 .contact .content .info .icon a:hover {
     color: #ffd693;
+}
+
+.go-top {
+    position: fixed;
+    padding: 10px 8px;
+    top: 80%;
+    right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    background: var(--main-color);
+    color: #fff;
+    transition: var(--hover-transition) step-start;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
 }
 
 footer .foot {
@@ -607,9 +622,9 @@ footer .foot .content .infornation {
     }
 
     footer .foot .content,
-footer .foot .content .infornation {
-    gap: 90px;
-}
+    footer .foot .content .infornation {
+        gap: 90px;
+    }
 }
 
 @media(max-width: 600px) {
