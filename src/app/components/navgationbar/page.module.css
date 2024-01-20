@@ -1,23 +1,37 @@
 .navgationBar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 90%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto; */
+    padding: 12px 0px;
+    background: #000;
+    border-bottom: 1px solid green;
 
-    .brand{
-        font-size: 22px;
-        font-weight: bold;
-        color: red;
-    }
-
-    .links{
-        font-size: 16px;
-        font-weight: bold;
+    .nav{
         display: flex;
-        gap: 20px;
+        align-items: center;
+        gap: 60px;
+
+        .brand{
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(191,54,12);
+        }
+        .links {
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            gap: 20px;
+            
+            .link {
+                color: teal;
+            }
+        }
+    }
+    .contactUs {
+        .contact {
+            color: rgb(191,54,12);
+            background: transparent;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            padding: 4px;
+            font-size: 18px;
+        }
     }
 }
