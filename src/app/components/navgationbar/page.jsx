@@ -1,5 +1,7 @@
+"use client" // use client silde rein
 import Link from 'next/link';
 import styles from './page.module.css';
+import { MdOutlineExpandMore } from "react-icons/md";
 
 const Nav = () => {
     return (
@@ -11,7 +13,7 @@ const Nav = () => {
                         <Link href={'/'} className={styles.link}>home</Link>
                         <Link href={'/about'} className={styles.link}>about-us</Link>
                         <Link href={'/'} className={styles.link}>
-                            cources
+                            cources <span> {MdOutlineExpandMore} </span>
                             <div className={styles.tracks}>
                                 
                             </div>
