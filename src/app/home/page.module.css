@@ -1,6 +1,5 @@
 .homePage{
-    height: calc(100vh - 55px);
-    background-color: rgb(191,54,12);
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;

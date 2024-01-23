@@ -12,10 +12,13 @@ const Nav = () => {
                     <nav className={styles.links}>
                         <Link href={'/'} className={styles.link}>home</Link>
                         <Link href={'/about'} className={styles.link}>about-us</Link>
-                        <Link href={'/'} className={styles.link}>
+                        <Link href={'/'} className={styles.link} id={styles.allCources}>
                             cources <span> {MdOutlineExpandMore} </span>
                             <div className={styles.tracks}>
-                                
+                                <span className={styles.Togglelink}>ui/ux</span>
+                                <span className={styles.Togglelink}>javaScript</span>
+                                <span className={styles.Togglelink}>tyepScript</span>
+                                <span className={styles.Togglelink}>python</span>
                             </div>
                         </Link>
                         

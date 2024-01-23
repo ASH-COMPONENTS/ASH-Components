@@ -3,7 +3,7 @@ import style from './page.module.css'
 
 const Tracks = (props) => {
     return (
-        <div className={style.trackBox} >
+            <div className={style.trackBox} >
             <h3 className={style.name} >{props.trackName}</h3>
             <div>
                 <h3 className={style.trackInfo}>{props.trackManyInfo}</h3>

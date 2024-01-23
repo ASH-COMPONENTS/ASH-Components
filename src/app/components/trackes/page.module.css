@@ -1,39 +1,39 @@
 .trackBox {
-    width: 430px;
-    height: 130px;
-    margin: 50px auto;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 5px;
-    padding: 2px 4px;
-    position: relative;
-
-    .name {
-        color: #bf360c;
-        font-size: 30px;
-        margin-bottom: 6px;
-    }
-
-    .trackInfo{
-        color: #777;
-        font-size: 12px;
-    }
-
-    .LinkTrack{
-        border: 1px solid #777;
-        color: #bf360c;
-        margin-top: 6px;
-        font-size: 18px;
-        border-radius: 4px;
+        width: 430px;
+        height: 130px;
+        margin-top: -30px;
+        background-color: #ffffff;
+        border-radius: 5px;
         padding: 2px 4px;
-        position: absolute;
-        right: 8px;
-        bottom: 8px;
-        transition: .4s;
+        position: relative;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+        .name {
+            color: #bf360c;
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+    
+        .trackInfo{
+            color: #777;
+            font-size: 12px;
+        }
+    
+        .LinkTrack{
+            border: 1px solid #777;
+            color: #bf360c;
+            margin-top: 6px;
+            font-size: 18px;
+            border-radius: 4px;
+            padding: 2px 4px;
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+            transition: .4s;
+        }
+    
+        .LinkTrack:hover{
+            background-color: #bf360c;
+            color: #ffffff;
+        }
     }
-
-    .LinkTrack:hover{
-        background-color: #bf360c;
-        color: #ffffff;
-    }
-}
