@@ -24,3 +24,16 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mainColor);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}

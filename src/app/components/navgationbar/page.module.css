@@ -2,6 +2,9 @@
     padding: 12px 0px;
     background: rgb(191,54,12);
     border-bottom: 1px solid #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 
     .nav{
         display: flex;
