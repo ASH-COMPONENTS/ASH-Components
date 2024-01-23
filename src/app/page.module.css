@@ -1,0 +1,22 @@
+.homePage{
+    height: calc(100vh - 55px);
+    background-color: rgb(191,54,12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .textContent {
+        text-align: center;
+
+        .title {
+            font-size: 40px;
+            text-transform: capitalize;
+        }
+        .description {
+            color: #ffffff;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    }
+}

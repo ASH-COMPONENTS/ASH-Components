@@ -1,0 +1,26 @@
+.trackBox {
+    width: 430px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 2px 4px;
+
+    .name {
+        color: #bf360c;
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+
+    .trackInfo{
+        color: #777;
+        font-size: 12px;
+    }
+
+    .LinkTrack{
+        border: 1px solid #777;
+        color: #bf360c;
+        margin-top: 6px;
+    }
+}
