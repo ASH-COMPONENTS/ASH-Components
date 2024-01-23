@@ -1,11 +1,12 @@
 .trackBox {
     width: 430px;
-    height: 100px;
-    margin: 20px auto;
+    height: 130px;
+    margin: 50px auto;
     background-color: #ffffff;
     color: #000000;
     border-radius: 5px;
     padding: 2px 4px;
+    position: relative;
 
     .name {
         color: #bf360c;
@@ -22,5 +23,17 @@
         border: 1px solid #777;
         color: #bf360c;
         margin-top: 6px;
+        font-size: 18px;
+        border-radius: 4px;
+        padding: 2px 4px;
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+        transition: .4s;
+    }
+
+    .LinkTrack:hover{
+        background-color: #bf360c;
+        color: #ffffff;
     }
 }

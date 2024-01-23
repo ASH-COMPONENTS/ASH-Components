@@ -13,4 +13,4 @@ const Tracks = (props) => {
     )
 }
 
-export default Tracks
+export default Tracks;
