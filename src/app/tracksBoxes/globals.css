@@ -1,0 +1,7 @@
+/* style={{display: 'flex', justifyContent: 'space-between' ,alignItems: 'center'}} */
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

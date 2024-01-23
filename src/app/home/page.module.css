@@ -12,8 +12,8 @@
             font-size: 55px;
             text-transform: capitalize;
 
-            .spaces {
-                letter-spacing: -10px;
+            .name{
+                color: #ffffff;
             }
 
         }

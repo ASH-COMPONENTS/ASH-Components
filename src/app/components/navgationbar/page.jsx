@@ -15,10 +15,10 @@ const Nav = () => {
                         <Link href={'/'} className={styles.link} id={styles.allCources}>
                             cources <span> {MdOutlineExpandMore} </span>
                             <div className={styles.tracks}>
-                                <span className={styles.Togglelink}>ui/ux</span>
-                                <span className={styles.Togglelink}>javaScript</span>
-                                <span className={styles.Togglelink}>tyepScript</span>
-                                <span className={styles.Togglelink}>python</span>
+                                <Link href={'/about'} className={styles.link2}>ui/ux</Link>
+                                <Link href={'/about'} className={styles.link2}>javaScript</Link>
+                                <Link href={'/about'} className={styles.link2}>tyepScript</Link>
+                                <Link href={'/about'} className={styles.link2}>python</Link>
                             </div>
                         </Link>
                         
