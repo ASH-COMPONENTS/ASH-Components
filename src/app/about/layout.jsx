@@ -1,6 +1,5 @@
 export const metadata = {
     title: "about",
-    
 }
 
 const layout = ({children}) => {

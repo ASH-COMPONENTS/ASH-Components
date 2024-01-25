@@ -12,16 +12,19 @@ const Nav = () => {
                     <nav className={styles.links}>
                         <Link href={'/'} className={styles.link}>home</Link>
                         <Link href={'/about'} className={styles.link}>about-us</Link>
-                        <Link href={'/'} className={styles.link} id={styles.allCources}>
-                            cources <span> {MdOutlineExpandMore} </span>
-                            <div className={styles.tracks}>
-                                <Link href={'/about'} className={styles.link2}>ui/ux</Link>
-                                <Link href={'/about'} className={styles.link2}>javaScript</Link>
-                                <Link href={'/about'} className={styles.link2}>tyepScript</Link>
-                                <Link href={'/about'} className={styles.link2}>python</Link>
-                            </div>
-                        </Link>
-                        
+                        <div id={styles.allCources} >
+                            <Link href={'/'} className={styles.link} id={styles.toggle} >
+                                cources
+                            </Link>
+                                <div className={styles.tracks}>
+                                    <h3> {">"}main tracks</h3>
+                                    <Link href={'/about'} className={styles.link2}>ui / ux</Link>
+                                    <Link href={'/JavaScript'} className={styles.link2}>java script</Link>
+                                    <Link href={'/about'} className={styles.link2}>tyep script</Link>
+                                    <Link href={'/about'} className={styles.link2}>python</Link>
+                                    <Link href={'/about'} className={styles.link2}>soft skills</Link>
+                                </div>
+                        </div>
                     </nav>
                 </div>
                     <div className={styles.contactUs}>
