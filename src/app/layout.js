@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-          <Nav />
-        <div className=''>
+        <Nav />
+        <div>
           {children}
         </div>
       </body>

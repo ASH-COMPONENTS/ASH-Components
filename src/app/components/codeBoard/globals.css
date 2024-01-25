@@ -1,13 +1,70 @@
-.codeBoard{
+/* Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace */
+
+.codeBoard {
+    position: relative;
     width: 100%;
     min-height: 120px;
     max-width: 600px;
     background-color: rgb(13, 17, 23);
-    border: 1px solid rgb(1, 4, 9);
+    padding-left: 8px;
+    outline: 3px solid  rgb(191,54,12);
 
     #text {
-        color: red;
+        color:  rgb(255, 255, 255);
+        margin-bottom: 20px;
+        background-color:  rgb(191,54,12);
+        width: fit-content;
+        padding: 2px 4px 4px 6px;
+        position: relative;
     }
-    #semeColumn, #variable {}
-    #semeColumn, #dot, #hash {}
+
+    .dec_variable{
+        font-size: 18px;
+        padding-left: 10px;
+        color: rgb(196, 237, 243);
+        display: flex;
+        gap: 6px;
+        align-items: center;
+
+        #kayWord, #equal {
+            color: rgb(216, 84, 82);
+        }
+
+        .string, .boolean, .number {
+            color: rgb(87, 177, 255);
+        }
+    }
+
+
+    .btn_copy_Code{
+        background-color: rgb(191,54,12);
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn {
+            background-color: transparent;
+            color:  rgb(255, 255, 255);
+            width: fit-content;
+            border: none;
+            font-size: 20px;
+            font-weight: 500;
+            padding-bottom: 3px;
+            padding-inline: 4px;
+            cursor: pointer;
+        }
+    }
+}
+
+.codeBoard::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 8px;
+    background-color:  rgb(191,54,12);
+    top: 0;
+    left: 0;
 }

@@ -17,7 +17,7 @@ const Nav = () => {
                                 cources
                             </Link>
                                 <div className={styles.tracks}>
-                                    <h3> {">"}main tracks</h3>
+                                    <h3> {""}main tracks</h3>
                                     <Link href={'/about'} className={styles.link2}>ui / ux</Link>
                                     <Link href={'/JavaScript'} className={styles.link2}>java script</Link>
                                     <Link href={'/about'} className={styles.link2}>tyep script</Link>
