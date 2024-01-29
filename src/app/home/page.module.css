@@ -1,5 +1,5 @@
 .homePage{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,47 @@
             color: #ffffff;
             margin-top: 20px;
             font-size: 16px;
+        }
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 40px;
+
+        .btn {
+            background-color: transparent;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            padding: 5px 10px;
+            font-size: 22px;
+            border-radius: 4px;
+            text-transform: capitalize;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn::after,
+        .btn::before {
+            content: '';
+            position: absolute;
+            background-color: #ffffff3e;
+            width: 50%;
+            height: 100%;
+            top: 0;
+            transition: .6s;
+        }
+        .btn::after{
+            left: -50%;
+        }
+        .btn::before {
+            right: -50%;
+        }
+        .btn:hover.btn::after {
+            left: 0;
+        }
+        .btn:hover.btn::before {
+            right: 0;
         }
     }
 }

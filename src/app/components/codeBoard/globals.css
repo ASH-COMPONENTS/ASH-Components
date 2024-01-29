@@ -3,8 +3,8 @@
 .codeBoard {
     position: relative;
     width: 100%;
-    min-height: 120px;
-    max-width: 600px;
+    height: fit-content;
+    padding-bottom: 20px;
     background-color: rgb(13, 17, 23);
     padding-left: 8px;
     outline: 3px solid  rgb(191,54,12);
@@ -13,7 +13,7 @@
         color:  rgb(255, 255, 255);
         margin-bottom: 20px;
         background-color:  rgb(191,54,12);
-        width: fit-content;
+        width: 100%;
         padding: 2px 4px 4px 6px;
         position: relative;
     }
@@ -39,8 +39,8 @@
     .btn_copy_Code{
         background-color: rgb(191,54,12);
         position: absolute;
-        top: 4px;
-        right: 4px;
+        top: 35px;
+        right: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
