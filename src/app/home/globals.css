@@ -1,0 +1,17 @@
+.animate__backInDown {
+
+    .name{
+        color: #ffffff;
+    }
+
+    font-size: 55px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0 0.3rem;
+    animation: bounce infinite;
+    animation-duration: 4s;
+}
+
+/* @keyframes bounce {
+    
+} */

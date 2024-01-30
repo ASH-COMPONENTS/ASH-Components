@@ -1,5 +1,4 @@
 .trackBox {
-        width: 430px;
         height: 130px;
         margin-bottom: 30px;
         background-color: #eeeeee;
@@ -10,6 +9,13 @@
         text-align: center;
         text-transform: capitalize;
         z-index: 0;
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+        }
     
         .name {
             color: #bf360c;

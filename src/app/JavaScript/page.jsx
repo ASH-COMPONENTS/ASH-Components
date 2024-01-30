@@ -11,6 +11,7 @@ const ubuntu_Mono = Ubuntu_Mono({
 const page = () => {
   return (
     <div className={ubuntu_Mono.className} style={{paddingTop: '60px', width: '90%', paddingLeft: '15px', paddingRight: '15px',  marginLeft: 'auto', marginRight: 'auto' }} >
+    <CodeBoard />
     </div>
   )
 }
