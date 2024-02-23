@@ -2,6 +2,12 @@
   "name": "ash-components",
   "version": "0.1.0",
   "private": true,
+  "github-repo": "https://github.com/ashrafmo-1/ASH-Components",
+  "live-freeHost": "ash-components.vercel.app",
+  "skills": {
+    "master": "create-react-app",
+    "state-management": "redux reduxToolKit"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
