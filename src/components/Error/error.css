@@ -1,0 +1,17 @@
+.error_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eeeeee;
+    .Header{
+        color: red;
+        font-size: 48px;
+    }
+    .description{
+        margin-top: 5px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}

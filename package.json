@@ -6,7 +6,8 @@
   "live-freeHost": "ash-components.vercel.app",
   "skills": {
     "master": "create-react-app",
-    "state-management": "redux reduxToolKit"
+    "state-management": "redux reduxToolKit",
+    "style": "sass css"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

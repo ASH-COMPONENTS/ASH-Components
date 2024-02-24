@@ -1,10 +1,9 @@
 import './App.css';
+import { Home } from './Home/Home';
 
 function App() {
   return (
-    <h1>
-      ash components
-    </h1>
+    <Home />
   );
 }
 
