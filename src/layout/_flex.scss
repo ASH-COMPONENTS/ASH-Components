@@ -1,0 +1,42 @@
+/// documentation typing here
+
+@mixin flex-content($position) {
+    display: flex;
+    justify-content: $position;
+    align-items: center;
+}
+
+@mixin width-center($widht) {
+    width: $widht;
+    margin: auto !important;
+}
+
+@mixin flex-direction($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+// Flex container mixin
+@mixin flex-container($direction: row, $wrap: nowrap, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex-item($flex: 1, $order: 0) {
+    flex: $flex;
+    order: $order;
+}
+
+@mixin flex_wrap($value: nowrap) {
+    -webkit-flex-wrap: $value;
+    -moz-flex-wrap: $value;
+    @if $value == nowrap {
+        -ms-flex-wrap: none;
+    } @else {
+        -ms-flex-wrap: $value;
+    }
+    flex-wrap: $value;
+}

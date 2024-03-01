@@ -1,0 +1,42 @@
+$text_color: #ffffff;
+$Main_backGroundColor: #2b3137;
+$secondry-backGroundColor: #24292D;
+$green_color: #2FBB4F;
+$blue_color: #0D74E7;
+
+//* width centering */
+@mixin width-center($widht) {
+  width: $widht;
+  margin: auto !important;
+}
+
+/// documentation typing here
+@mixin flex-content($position) {
+  display: flex;
+  justify-content: $position;
+  align-items: center;
+}
+
+@mixin width-center($widht) {
+  width: $widht;
+  margin: auto !important;
+}
+
+@mixin flex-direction($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+// Flex container mixin
+@mixin flex-container($direction: row, $wrap: nowrap, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-item($flex: 1, $order: 0) {
+  flex: $flex;
+  order: $order;
+}
