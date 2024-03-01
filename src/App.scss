@@ -1,3 +1,17 @@
+@use "./layout/rest" as *;
+
+body {
+  @include reset_all_page;
+  @include reser_heading_spaces;
+
+  ul,
+  li,
+  dl {
+    @include list-style-reset;
+  }
+}
+
+
 .home {
-    background-color: red;
+  background-color: red;
 }
